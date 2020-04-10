@@ -60,7 +60,7 @@
 	</Recipe>
 	<Recipe timeRequired="3000" power ="20">
 		<input>
-			<itemStack>ic2:misc_resource;1;1</itemStack>
+			<itemStack>thermalfoundation:material;1;135</itemStack>
 			<itemStack>libvulpes:productingot;1;7</itemStack>
 		</input>
 		<output>

@@ -1,0 +1,48 @@
+{
+  "name" : "SpankCraft",
+  "title" : "SpankCraft",
+  "gameVersion" : "1.12.2",
+  "features" : [
+    {
+      "properties" : {
+        "name" : "Optifine",
+        "description" : "Makes more FPSeses",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/OptiFine_1.12.2_HD_U_F5.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Journeymap",
+        "description" : "A minimap to show the terrain around you",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/journeymap*.jar",
+          "config/journeymap*"
+        ],
+        "exclude" : [ ]
+      }
+    }
+  ],
+  "userFiles" : {
+    "include" : [
+      "options.txt",
+      "optionsshaders.txt"
+    ],
+    "exclude" : [ ]
+  },
+  "launch" : {
+    "flags" : [
+      "-Dfml.ignoreInvalidMinecraftCertificates=true"
+    ]
+  }
+}
